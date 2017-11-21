@@ -1,10 +1,7 @@
 import stringify from 'json-stringify-safe';
 
 export const makeEncryptor = transform => (state, key) => {
-  if (typeof state !== 'string') {
-    state = stringify(state);
-  }
-  return transform(state);
+  return transform(stringify(state));
 };
 
 export const makeDecryptor = transform => (state, key) => {

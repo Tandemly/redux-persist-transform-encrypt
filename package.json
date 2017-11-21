@@ -1,6 +1,6 @@
 {
-  "name": "redux-persist-transform-encrypt",
-  "version": "2.0.0",
+  "name": "@tandem.ly/redux-persist-transform-encrypt",
+  "version": "2.0.1",
   "description": "Encrypt your Redux store.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxdeviant/redux-persist-transform-encrypt.git"
+    "url": "git+https://github.com/Tandemly/redux-persist-transform-encrypt.git"
   },
   "keywords": [
     "redux",
@@ -22,9 +22,9 @@
   "author": "Marshall Bowers <elliott.codes@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxdeviant/redux-persist-transform-encrypt/issues"
+    "url": "https://github.com/Tandemly/redux-persist-transform-encrypt/issues"
   },
-  "homepage": "https://github.com/maxdeviant/redux-persist-transform-encrypt#readme",
+  "homepage": "https://github.com/Tandemly/redux-persist-transform-encrypt#readme",
   "files": [
     "lib/",
     "async.js"
